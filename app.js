@@ -19,6 +19,17 @@ function fromEuroToDollar(euroAmount) {
     return dollarAmount;
 }
 
+/* Using fromEuroToDollar as an example, here is another way to do this:
+
+const fromEuroToDollar = function(valueInEuro){
+
+    let valueInDollar = valueInEuro * 1.2;
+
+    return valueInDollar;
+
+    module.exports = { sum, fromEuroToDollar }
+} */
+
 function fromYenToPound(yenAmount) {
     let poundAmount = yenAmount * oneEuroIs["GBP"] / oneEuroIs["JPY"];
     return poundAmount;
