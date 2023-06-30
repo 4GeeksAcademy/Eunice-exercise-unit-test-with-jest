@@ -24,8 +24,8 @@ test("10 yens to pounds are equal to 0.06254886630179828", () => {
 });
 
 
-/* Taking as an example the fromEuroToDollar case, and here I add three posibles
-escenarios (besides the one that I use) to get the same result:
+/* Taking as an example the fromEuroToDollar case, here there're three posibles
+escenarios (besides the one that I used) to get the same result:
 
 First
 
